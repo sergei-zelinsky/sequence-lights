@@ -1,0 +1,49 @@
+{
+  "name": "sequence-lights",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "ios": "node node_modules/react-native/local-cli/cli.js run-ios",
+    "android": "node node_modules/react-native/local-cli/cli.js run-android",
+    "test": "jest --coverage",
+    "lint": "tslint -p \".\" -t stylish"
+  },
+  "dependencies": {
+    "react": "16.6.3",
+    "react-native": "0.58.4"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.5",
+    "@types/react": "^16.8.3",
+    "@types/react-native": "^0.57.36",
+    "@types/react-test-renderer": "^16.8.1",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "24.1.0",
+    "jest": "^24.1.0",
+    "metro-react-native-babel-preset": "0.51.1",
+    "react-native-typescript-transformer": "^1.2.11",
+    "react-test-renderer": "^16.8.2",
+    "ts-jest": "^23.10.5",
+    "tslint": "^5.12.1",
+    "tslint-eslint-rules": "^5.4.0",
+    "tslint-react": "^3.6.0",
+    "tslint-react-recommended": "^1.0.15",
+    "typescript": "^3.3.3"
+  },
+  "jest": {
+    "preset": "react-native",
+    "transform": {
+      "^.+\\.tsx?$": "ts-jest"
+    },
+    "testRegex": "(/src/.*\\.(test|spec))\\.(jsx?|tsx?)$",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json",
+      "node"
+    ]
+  }
+}

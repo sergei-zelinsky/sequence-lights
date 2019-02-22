@@ -24,10 +24,7 @@ const Circle: React.FunctionComponent<ICircleProps> = ({
 );
 
 const styles = StyleSheet.create({
-  root: {
-    width: 72,
-    height: 72,
-  },
+  root: {},
 });
 
 export default Circle;
